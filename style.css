@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    background: white;
+    display: flex;
+    align-items: centre;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4) ;
+
+}
+  .google-logo {
+	  width: 95%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5px;
+  }
+
+  .box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+ select {	 
+    width: 100%;
+    height: 45px;
+    padding-top: 1px;
+	padding-left:50px;
+    font-size: 1.10rem;
+	padding:0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: 2px;
+    box-sizing: ;
+}
+
+select:valid{
+    border: 2px solid #4285f4 ;
+}
+
+.box .inputBox {
+    position: relative;
+  }
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    font-size: 1.10rem;
+	height:4px;
+    border:1px solid #ccc ;
+	border-radius:4px;
+	outline:none;
+	margin-top:25px;
+	padding:20px;
+    
+  }
+  
+ .box .inputBox input:valid{
+    border: 2px solid#4285f4 ;
+}
+
+ .box .inputBox input:invalid{
+    border: 1px solid grey;
+}
+
+  .box .inputBox label {
+    position: absolute;
+    margin-left:1rem;
+    top: 29px;
+    left: 0px;
+    padding: 0.635rem 0;
+    font-size: 1rem;
+    color: grey ;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top:-0.6px;
+    left: 0px;
+    margin-right:3px;
+    margin-top:9.15px;
+    color: #1a73e8;
+    font-size: 0.80rem;
+    background-color: white;
+    height: 10px;
+  
+  }
+  .box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+  }
+  .box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    width: 100%;
+    height: 45px;
+    padding: 0.625rem 1.25rem;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    margin-right:0rem;
+    float: right;
+  }
+  
+  .box input[type="submit"]:hover {
+    background-color: #287ae6;
+    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+  }   
+
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+      top:-0.6px;
+      left: 0px;
+	  margin-right:3px;
+ 	 margin-top:9.15px;
+      color: #1a73e8;
+      font-size: 0.80rem;
+      background-color: white;
+      height: 10px;
+   
+  }
+  .box .inputBox input:focus {
+      outline: none;
+      border: 2px solid #1a73e8;
+  }
+
+  .forgot {
+    margin-top: -20px;
+    margin-left:1rem;
+  }
+
+  .forgot button {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-align: left;
+    border: 0;
+  }

